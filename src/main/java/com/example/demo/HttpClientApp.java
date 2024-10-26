@@ -38,9 +38,10 @@ public class HttpClientApp{
                     
                     -d delete the first numberOfRequests emails\
                     
-                    -e to export the data
+                    -e to export the data\
                     
-                    -c to continuously export the data over a period of 15 minutes""");
+                    -c to continuously export the data over a period of 15 minutes
+                    """);
             return;
         }
         int numberOfRequests = Integer.parseInt(args[0]);
